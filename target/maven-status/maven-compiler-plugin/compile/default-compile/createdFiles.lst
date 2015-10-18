@@ -1,0 +1,8 @@
+com/ilkgunel/ejbinterfaces/SaveArticleInterface.class
+com/ilkgunel/ejbclasses/GetArticlesEjbBean.class
+com/ilkgunel/ejbclasses/SaveArticleEjbBean.class
+com/ilkgunel/jsfbeans/SaveArticle.class
+com/ilkgunel/jsfbeans/Preview.class
+com/ilkgunel/jsfbeans/GettingArticles.class
+com/ilkgunel/ejbinterfaces/GetArticlesInterface.class
+com/ilkgunel/pojo/ArticlePojo.class

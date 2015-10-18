@@ -1,0 +1,8 @@
+/Users/ilkaygunel/IdeaProjects/BlogProjectWithEJBAndMongoDB/src/main/java/com/ilkgunel/pojo/ArticlePojo.java
+/Users/ilkaygunel/IdeaProjects/BlogProjectWithEJBAndMongoDB/src/main/java/com/ilkgunel/ejbclasses/GetArticlesEjbBean.java
+/Users/ilkaygunel/IdeaProjects/BlogProjectWithEJBAndMongoDB/src/main/java/com/ilkgunel/jsfbeans/GettingArticles.java
+/Users/ilkaygunel/IdeaProjects/BlogProjectWithEJBAndMongoDB/src/main/java/com/ilkgunel/ejbinterfaces/SaveArticleInterface.java
+/Users/ilkaygunel/IdeaProjects/BlogProjectWithEJBAndMongoDB/src/main/java/com/ilkgunel/ejbinterfaces/GetArticlesInterface.java
+/Users/ilkaygunel/IdeaProjects/BlogProjectWithEJBAndMongoDB/src/main/java/com/ilkgunel/jsfbeans/SaveArticle.java
+/Users/ilkaygunel/IdeaProjects/BlogProjectWithEJBAndMongoDB/src/main/java/com/ilkgunel/ejbclasses/SaveArticleEjbBean.java
+/Users/ilkaygunel/IdeaProjects/BlogProjectWithEJBAndMongoDB/src/main/java/com/ilkgunel/jsfbeans/Preview.java
