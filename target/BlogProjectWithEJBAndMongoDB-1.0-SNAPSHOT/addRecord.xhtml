@@ -9,15 +9,16 @@
 </h:head>
 <h:body>
     <h:form>
-        <p:panelGrid columns="2">
-            <p:outputLabel value="Başlık:"/>
+        <p:panelGrid columns="1">
+            <p:outputLabel value="#{saveArticle.operationMessage}" style="color: #{saveArticle.messageColor}" rendered="#{saveArticle.renderingMessage}"/>
             <p:inputText placeholder="Yazının Başlığını Giriniz" value="#{saveArticle.articlePojoObject.articleTitle}"/>
-
-            <p:outputLabel value="İçerik"/>
-            <p:inputTextarea value="#{saveArticle.articlePojoObject.articleContent}"/>
-
-            <p:commandButton value="Önizleme" action="preview.xhtml?faces-redirect=true" actionListener="#{preview.previewMethod}"/>
-            <p:commandButton value="Kaydet"/>
+            <p:editor widgetVar="editorWidget" value="#{saveArticle.articlePojoObject.articleContent}"/>
+            
+            <p:panelGrid columns="3">
+                <p:commandButton value="Kaydet" action="#{saveArticle.saveArticleToMongoDB}" icon="ui-icon-disk" ajax="false"/>
+                <p:commandButton value="Önizleme" action="preview.xhtml?faces-redirect=true" actionListener="#{preview.previewMethod}"/>
+                <p:commandButton value="Temizle" type="button" onclick="PF('editorWidget').clear();" icon="ui-icon-close"/>
+            </p:panelGrid>
         </p:panelGrid>
     </h:form>
 </h:body>
